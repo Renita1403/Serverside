@@ -2,14 +2,14 @@
 ## Date:26.09.2025
 
 ## AIM:
- To design a website to calculate the power of a lamp filament in an incandescent bulb in the server side. 
+ To  Develop a Django application that accepts height and weight as inputs, calculates the Body Mass Index (BMI) on the server side, and displays the result on both the webpage and the server console output.
+ 
 
 
 ## FORMULA:
-P = I<sup>2</sup>R
-<br> P --> Power (in watts)
-<br> I --> Intensity
-<br> R --> Resistance
+bmi = w/h<sup>2</sup>
+<br> w --> weight(in kg)
+<br> h --> height(in cm)
 
 ## DESIGN STEPS:
 
@@ -96,6 +96,6 @@ urlpatterns = [
 ![alt text](<Screenshot 2025-09-26 102946.png>)
 ## HOMEPAGE:
 
-![alt text](<WhatsApp Image 2025-09-26 at 10.46.58_1e71a423.jpg>)
+![alt text](<Screenshot 2025-09-24 162139.png>)
 ## RESULT:
 The program for performing server side processing is completed successfully.
